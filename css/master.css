@@ -1,0 +1,66 @@
+
+.title{
+  padding: 8%;
+  text-align: center;
+  border: solid 1px black;
+  margin: 30px;
+}
+
+
+#main-menu {
+position: static;
+width :100%;
+  background: transparent;
+  margin-top:30px;
+}
+
+#main-menu ul {
+display: flex;
+  width :100%;
+justify-content: space-around;
+background: black;
+
+}
+
+#main-menu ul a {
+width: auto;
+display: block;
+color: white;
+padding: 1em;
+background: black;
+text-decoration: none;
+}
+
+
+.toggle-menu{
+display: none;
+}
+
+.menu-close{
+display: none;
+}
+
+
+section{
+min-height: 98vh;
+border-bottom: 1px solid #6A5ACD;
+}
+
+
+.project-feature-content{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+padding:20px;
+
+}
+
+.project-feature{
+
+padding: 1em;
+flex-basis: 50px;
+flex-grow: 1;
+flex-shrink: 1;
+
+
+}
