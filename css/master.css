@@ -1,12 +1,14 @@
 
 .title{
-  padding: 8%;
+  padding: 7%;
   text-align: center;
   border: solid 1px black;
   margin: 30px;
+
 }
 
 
+}
 #main-menu {
 position: static;
 width :100%;
