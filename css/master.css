@@ -53,16 +53,32 @@ border-bottom: 1px solid #6A5ACD;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
-padding:20px;
+padding: 20px;
 
 }
 
 .project-feature{
-
+margin-bottom: 25px
 padding: 1em;
 flex-basis: 50px;
 flex-grow: 1;
 flex-shrink: 1;
 
+}
 
+
+.photo-feature-content{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+padding:20px;
+}
+
+
+.photo-feature{
+padding: 1em;
+flex-basis: 50px;
+flex-grow: 1;
+flex-shrink: 1;
+margin-bottom: 25px;
 }
