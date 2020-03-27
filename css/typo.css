@@ -1,18 +1,18 @@
-section h1 {
+h2 {
   margin-top: 75px;
   margin-bottom: 50px;
   font-size: 3em;
 text-align: center;
 }
 
-h2{
+h3{
   margin-left: 75px;
   margin-bottom: 25px;
   font-size: 2em;
 text-align: left;
 }
 
-.photo-feature h2{
+.photo-feature h3{
   margin-left: 0px;
   margin-bottom: 15px;
   font-size: 2em;
@@ -20,9 +20,9 @@ text-align: left;
 }
 
 
-h3{
+p{
   margin-left: 75px;
-  margin-right: 600px;
+max-width: 600px;
   margin-bottom: 25px;
   font-size: 1em;
 text-align: left;
