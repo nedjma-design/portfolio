@@ -19,11 +19,8 @@ text-align: left;
 
 }
 
-
-p{
-  margin-left: 75px;
-max-width: 600px;
-  margin-bottom: 25px;
-  font-size: 1em;
-text-align: left;
+#contact h3{
+margin-left: 0px;
+font-size: 1,5em;
+  margin-bottom: 15px;
 }
