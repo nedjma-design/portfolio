@@ -6,7 +6,11 @@
   margin: 30px;
 
 }
+.title a{
+text-decoration: none;
+color:black;
 
+}
 
 }
 #main-menu {
@@ -21,9 +25,7 @@ display: flex;
   width :100%;
 justify-content: space-around;
 background: black;
-
 }
-
 #main-menu ul a {
 width: auto;
 display: block;
@@ -48,6 +50,14 @@ min-height: 98vh;
 border-bottom: 1px solid #6A5ACD;
 }
 
+#contact p {
+background: grey url('images/nausicaa.jpg') no-repeat top center ;
+background-size: cover;
+margin: 100px;
+margin-bottom: 0px;
+margin-top: 75px;
+padding :300px;
+ }
 
 .project-feature-content{
 display: flex;
@@ -58,7 +68,7 @@ padding: 20px;
 }
 
 .project-feature{
-margin-bottom: 25px
+margin-bottom: 25px;
 padding: 1em;
 flex-basis: 50px;
 flex-grow: 1;
