@@ -91,9 +91,6 @@ border-radius: 100%;
 }
 
 
-
-
-
 @media (min-width : 700px) {
  #main-menu {
 position: static;
@@ -138,8 +135,15 @@ background: black;
 
 section{
 min-height: 60vh;
-border-bottom: 1px solid black;
 }
+
+footer {
+  background: lightgrey;
+    padding : 10px;
+
+
+}
+
 
 #accueil {
 background: grey url('images/1400x500.png') no-repeat top center ;
@@ -151,19 +155,27 @@ background-size: cover;
 .project-feature-content{
 display: flex;
 flex-wrap: wrap;
-justify-content: space-evenly;
-padding: 20px;
+justify-content: center;
+margin-top: 100px;
+
 
 }
 
 .project-feature{
-margin-bottom: 25px;
-padding: 1em;
+margin-bottom: 20px;
 flex-basis: 50px;
-flex-grow: 1;
 flex-shrink: 1;
 
 }
+
+
+.project-feature h3{
+background-color: lightgrey;
+
+}
+
+
+
 
 /* SECTION PHOTO */
 
@@ -187,7 +199,7 @@ padding:20px;
 .photo-feature{
 padding: 1em;
 flex-basis: 50px;
-flex-grow: 1;
+
 flex-shrink: 1;
 margin-bottom: 25px;
 }
@@ -198,29 +210,118 @@ margin-bottom: 25px;
 /* SECTION A PROPOS */
 
 
-#about p {
-background: grey url('images/700x700.png') no-repeat top center ;
-background-size: cover;
-padding-left: 50%;
-padding-top: 5%;
-padding-bottom: 30%;
-padding-right: 10%;
-
+#about img {
+  width: 100%;
+  height : 700px;
+  object-fit : cover;
+  float: left;
+}
+#about h3, h4, p {
+  margin : 30px;
+  margin-top: 0px;
 }
 
+.about-feature-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+.about-feature{
+
+flex-basis: 50px;
+flex-grow: 1;
+flex-shrink: 1;
+margin-bottom: 25px;
+}
 
 
 /* SECTION CONTACT */
 
-#contact {
-background: grey url('images/500x700.png') no-repeat top center ;
-background-size: cover;
-padding: 50px;
-padding-left: 50%;
+
+
+
+#contact h3, h4, p {
+  margin : 30px;
+  margin-top: 0px;
 }
 
-#contact p{
-margin : 20px;
-margin-left: 0px;
 
+#contact img {
+  width: 100%;
+  height : 700px;
+  object-fit : cover;
+  float: left;
+
+}
+
+.contact-feature-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+.contact-feature{
+
+flex-basis: 50px;
+flex-grow: 1;
+flex-shrink: 1;
+margin-bottom: 25px;
+}
+
+/* SECTION PROJET INEXISTANT*/
+
+#project01{
+background: lightgrey url('images/project01.jpg') no-repeat top center ;
+
+}
+
+
+/* SECTION PHOTO INEXISTANTE*/
+
+#photo01{
+background: lightgrey url('images/project01.jpg') no-repeat top center ;
+
+}
+
+/* SECTION GVINE*/
+
+
+
+#gvine h3, h4, p {
+  margin : 30px;
+  margin-top: 0px;
+}
+
+.gvine-feature-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+.gvine-feature{
+
+flex-basis: 50px;
+flex-grow: 1;
+flex-shrink: 1;
+margin-bottom: 25px;
+}
+
+
+#gvine img {
+
+  height : 100%;
+  object-fit : cover;
+  float: left;
+}
+
+#full {
+  width :100%;
+
+  object-fit : cover;
+  float: left;
+margin-bottom: 50px;
 }
