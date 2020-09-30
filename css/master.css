@@ -1,3 +1,6 @@
+
+
+
 /* TITRE */
 
 .title a{
@@ -142,8 +145,6 @@ background: black;
 .menu-close{
  display: none;
 }
-}
-
 
 
 
@@ -154,8 +155,9 @@ min-height: 60vh;
 }
 
 footer {
-  background: lightgrey;
+  background: black;
     padding : 10px;
+  color: white;
 
 
 }
@@ -350,4 +352,78 @@ width: 1000px;
   object-fit : cover;
   float: left;
 
+}
+
+
+
+
+/* FOOTER */
+
+footer{
+  background-color: black;
+}
+
+
+footer ul a {
+color: #808e95;
+text-decoration: none;
+
+}
+
+footer ul li {
+display: block;
+padding: 0.5em;
+padding-left: 0em;
+color: #808e95;
+margin-left: 0px;
+text-align: left;
+}
+
+footer ul {
+  padding-top: 1em;
+}
+
+footer a:hover{
+	color: white;
+}
+
+footer h3 {
+  color: white;
+  font-size: 1,5em;
+  display: block;
+
+}
+
+.footer-content{
+padding : 2em;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: nowrap;
+margin-left : 0px;
+padding-bottom: 4em;
+
+}
+
+/* barre crédits footer */
+
+.codrops-top{
+	font-family:'Arial Narrow', Arial, sans-serif;
+min-height: 20px;
+	font-size: 10px;
+	width: 100%;
+  color: darkgrey;
+	text-transform: uppercase;
+
+}
+.codrops-top a{
+
+background-color: black;
+	letter-spacing: 2px;
+	color: darkgrey;
+text-align: center;
+	display: block;
+  text-decoration: none;
+}
+.codrops-top a:hover{
+	color: white;
 }
