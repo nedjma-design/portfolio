@@ -6,7 +6,6 @@
 .title a{
 text-decoration: none;
 color : transparent;
-
 }
 
 .title{
@@ -58,6 +57,11 @@ background: black;
 text-decoration: none;
 
 }
+
+#main-menu ul a:hover{
+color: darkgrey;
+}
+
 
 .menu-close {
  display: flex;
@@ -153,7 +157,7 @@ background: black;
 /* Ne pas toucher */
 
 section{
-min-height: 60vh;
+min-height: 70vh;
 }
 
 footer {
@@ -163,10 +167,6 @@ footer {
 }
 
 
-#accueil {
-background: grey url('images/1400x500.png') no-repeat top center ;
-background-size: cover;
-}
 
 /* SECTION PROJET */
 
