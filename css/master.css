@@ -1,5 +1,26 @@
+@keyframes reveal {
+  from {
+    opacity: 1;
+    right: -280px;
+  }
 
+  to {
+    opacity: 1;
+    right: 0px;
+  }
+}
 
+@keyframes reveal2 {
+  from {
+    opacity: 1;
+    left: -280px;
+  }
+
+  to {
+    opacity: 1;
+    left: 0px;
+  }
+}
 
 /* TITRE */
 
@@ -179,7 +200,7 @@ grid-gap: 0em;
 }
 
 .project-image img {
-  filter: blur(0px);
+  filter: blur(0px) grayscale(100%);
   transition: filter 0.3s ease-in;
   transform: scale(1.1);
 }
@@ -209,7 +230,7 @@ grid-gap: 0em;
 }
 
 .project-listing:hover .project-image img {
-  filter: blur(2px);
+  filter: blur(2px)grayscale(0%);
 }
 
 img {
@@ -257,20 +278,30 @@ flex-shrink: 1;
 
 
 #about img {
+  position: relative;
   width: 75%;
   height : 600px;
   object-fit : cover;
 float: right;
+animation-name: reveal2;
+animation-duration: 4s;
+animation-iteration-count: 1;
 }
 #about h3, h4, p {
+    position: relative;
   margin : 30px;
   margin-top: 0px;
+  animation-name: reveal;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
 }
 
 .about-feature-content {
+
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
 }
 
 
@@ -280,17 +311,25 @@ flex-basis: 50px;
 flex-grow: 1;
 flex-shrink: 1;
 margin-bottom: 100px;
+
 }
 
-
+span{
+  font-weight: 400;
+  color: rgb(125, 107, 231  );
+}
 /* SECTION CONTACT */
 
 
 
 
 #contact h3, h4, p{
+    position: relative;
   margin : 30px;
   margin-top: 0px;
+  animation-name: reveal;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
 }
 
 #contact a{
@@ -306,11 +345,15 @@ margin-bottom: 100px;
 
 
 #contact img {
+  position: relative;
   width: 70%;
   height : 650px;
   object-fit : cover;
 float: right;
 margin-bottom: 50px;
+animation-name: reveal2;
+animation-duration: 4s;
+animation-iteration-count: 1;
 
 }
 
