@@ -45,11 +45,14 @@ color : transparent;
     text-align: center;
     letter-spacing: 5px;
   border: 5px solid #040b1b;
-
-
 }
 
-
+@media (max-width : 900px) {
+.title {
+font-size: 3.25em;
+letter-spacing: 3px;
+}
+}
 
 
 
