@@ -1,17 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,400&family=Fredericka+the+Great&display=swap');
-
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,400,700,900&display=swap');
 
-
-
-a{
-font-family: 'Rubik', sans-serif;
-
+a {
+  font-family: 'Rubik', sans-serif;
 }
 
-
-h1{
-font-family: 'Rubik', sans-serif;
+h1 {
+  font-family: 'Rubik', sans-serif;
   font-size: 4em;
   font-weight: bold;
 }
@@ -20,133 +15,171 @@ h2 {
   margin-top: 75px;
   margin-bottom: 100px;
   font-size: 3em;
-text-align: center;
-font-family: 'Rubik', sans-serif;
-
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
 }
 
-h3{
+@media (max-width : 900px) {
+  h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.75em;
+  }
+}
+
+h3 {
   margin-left: 75px;
   margin-bottom: 25px;
   font-size: 2em;
-font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
-footer h3{
+footer h3 {
   margin: 0px;
   font-size: 1.5em;
-
-font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
-footer ul li{
-
-font-family: 'Rubik', sans-serif;
+footer ul li {
+  font-family: 'Rubik', sans-serif;
 }
 
-h4{
-font-family: 'Rubik', sans-serif;
+h4 {
+  font-family: 'Rubik', sans-serif;
 }
 
-p{
-font-family: 'Rubik', sans-serif;
-font-weight: 300;
+p {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
 }
 
 /* SECTION PROJETS */
-.project-feature h3{
+.project-feature h3 {
   margin-left: 0px;
-  margin-bottom : 0px;
+  margin-bottom: 0px;
   padding-bottom: 15px;
   padding-top: 15px;
   font-size: 2em;
   text-align: center;
 }
 
-
 /* SECTION PHOTO */
-.photo-feature h3{
+.photo-feature h3 {
   margin-left: 0px;
   margin-bottom: 15px;
   font-size: 2em;
   text-align: center;
 }
 
-
 /* SECTION ABOUT */
-
 #about h2 {
   margin-bottom: 80px;
-
 }
 
-#about h3{
+#about h3 {
   padding-top: 100px;
   margin-bottom: 15px;
-
 }
 
-#about h4{
-font-weight: bold;
+#about h4 {
+  font-weight: bold;
   margin-bottom: 15px;
-
 }
 
 #about p {
-  max-width: 600px;
+  max-width: 500px;
+}
+
+@media (max-width : 900px) {
+  #about h2 {
+    margin-bottom: 40px;
+  }
+
+  #about h3 {
+    padding-top: 0px;
+    font-size: 1.25em;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #about h4 {
+    font-weight: normal;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #about p {
+    font-size: 16px;
+    margin: 20px 20px 0px 20px;
+  }
 }
 
 /* SECTION CONTACT */
-
-#contact h3{
+#contact h3 {
   margin-bottom: 15px;
 }
 
-#contact h4{
-font-weight: bold;
+#contact h4 {
+  font-weight: bold;
   margin-bottom: 15px;
+}
+
+@media (max-width : 900px) {
+  #contact h2 {
+    margin-bottom: 40px;
+  }
+
+  #contact h3 {
+    padding-top: 0px;
+    font-size: 1.25em;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #contact h4 {
+    font-weight: normal;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #contact p {
+    font-size: 16px;
+    margin: 20px 20px 0px 20px;
+  }
 }
 
 /* SECTION PROJET INEXISTANT */
-
 #project01 h3 {
-  padding : 0px;
-  margin : 0px;
+  padding: 0px;
+  margin: 0px;
   padding-top: 20px;
   text-align: center;
 }
 
-
-  /* SECTION PHOTO INEXISTANTE */
-
+/* SECTION PHOTO INEXISTANTE */
 #photo01 h3 {
-    padding : 0px;
-    margin : 0px;
-    padding-top: 20px;
-    text-align: center;
-
+  padding: 0px;
+  margin: 0px;
+  padding-top: 20px;
+  text-align: center;
 }
-
 
 /* SECTION PROJET GVINE */
-
 }
+
 #gvine h2 {
   margin-bottom: 20px;
-
 }
 
-#gvine h3{
+#gvine h3 {
   padding-top: 100px;
   margin-bottom: 15px;
-
 }
 
-#gvine h4{
-font-weight: bold;
-text-align: center;
-font-size: 1.5em;
-
+#gvine h4 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5em;
 }
 
 #gvine p {
