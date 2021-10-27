@@ -1,27 +1,5 @@
 /* animation */
-@keyframes reveal {
-  from {
-    opacity: 1;
-    right: -280px;
-  }
 
-  to {
-    opacity: 1;
-    right: 0px;
-  }
-}
-
-@keyframes reveal2 {
-  from {
-    opacity: 1;
-    left: -280px;
-  }
-
-  to {
-    opacity: 1;
-    left: 0px;
-  }
-}
 
 /* TITRE */
 .title a {
@@ -440,6 +418,13 @@ span {
   }
 }
 
+
+
+
+
+
+/* ////////////PROJETS//////////// */
+
 /* SECTION PROJET INEXISTANT*/
 #project01 {
   background: lightgrey url('images/project01.jpg') no-repeat top center;
@@ -450,38 +435,100 @@ span {
   background: lightgrey url('images/project01.jpg') no-repeat top center;
 }
 
-/* SECTION GVINE*/
-#gvine h3, h4, p {
-  margin: 30px;
-  margin-top: 0px;
+
+
+
+
+
+
+
+/* Page Casse-noisette */
+#casse{
+  overflow: hidden;
 }
 
-.gvine-feature-content {
+#casse h2{
+margin-top: 25px;
+}
+
+#casse h3{
+margin-top: 100px;
+text-align: center;
+font-weight: bold;
+margin-left: 0;
+color:grey;
+}
+
+#casse p{
+margin:0;
+padding : 0;
+padding-left: 200px;
+padding-right : 200px;
+padding-top : 50px;
+max-width: 700px;
+color: grey;
+display: block;
+margin-left: auto;
+margin-right:auto;
+}
+
+.casse-feature-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+max-width: 1000px;
+margin-left: auto;
+margin-right:auto;
+margin-top: 100px;
+
+
 }
 
-.gvine-feature {
+.casse-feature {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   flex-basis: 50px;
   flex-grow: 1;
   flex-shrink: 1;
-  margin-bottom: 25px;
+
 }
 
-#gvine img {
-  width: 100%;
-  height: 500px;
+
+#casse img {
   object-fit: cover;
-  float: left;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
 }
+
+#casse figure{
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
 
 #full {
-  height: 100%;
-  width: 1000px;
+  width: 70%;
   object-fit: cover;
-  float: left;
+    margin-left: auto;
+  margin-right: auto;
 }
+
+#cover {
+  width: 80%;
+  object-fit: cover;
+
+}
+
+
+
+
+
+
 
 /* FOOTER */
 footer {
@@ -581,7 +628,7 @@ footer h3 {
     justify-content: space-evenly;
     flex-wrap: nowrap;
     margin-left: 0px;
-    padding-bottom: 4em;
+    padding-bottom: 3em;
   }
 
   .footer-element {
