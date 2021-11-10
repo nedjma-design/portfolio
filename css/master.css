@@ -1,36 +1,6 @@
 /* animation */
 
 
-/* TITRE */
-.title a {
-  text-decoration: none;
-  color: transparent;
-}
-
-.title {
-  font-family: 'Rubik', sans-serif;
-  padding: 5%;
-  text-align: center;
-  margin: 50px;
-  color: transparent;
-  background: url('images/image04.jpg') no-repeat;
-  background-position: 40% 50%;
-  -webkit-background-clip: text;
-  position: relative;
-  text-align: center;
-  font-weight: 500;
-  font-size: 5em;
-  text-align: center;
-  letter-spacing: 5px;
-  border: 5px solid #040b1b;
-}
-
-@media (max-width : 900px) {
-  .title {
-    font-size: 2.5em;
-    letter-spacing: 2px;
-  }
-}
 
 /* MENU */
 #main-menu:target {
@@ -58,8 +28,9 @@
 }
 
 #main-menu ul a:hover {
-  color: darkgrey;
+  color: #d1c5fd;
 }
+
 
 .menu-close {
   display: flex;
@@ -108,28 +79,66 @@
 }
 
 @media (min-width : 900px) {
+
+
+
   #main-menu {
     position: static;
     width: 100%;
     background: transparent;
-    margin-top: 40px;
+    display: flex;
+    justify-content:  space-evenly;
+align-items: center;
+box-shadow: 0px 4px 4px rgb(0 0 0 / 0.2);
   }
 
   #main-menu ul {
-    display: flex;
+  display: flex;
+    flex-direction: row;
     width: 100%;
-    justify-content: space-around;
-    background: black;
+    justify-content: flex-end;
+    background: white;
   }
 
   #main-menu ul a {
     width: auto;
     display: block;
-    color: white;
-    padding: 1em;
-    background: black;
+    flex-basis: auto;
+    color: black;
+    padding: 2em;
+    background: white;
     text-decoration: none;
+
   }
+
+  .logo {
+width: 700px;
+    margin-left: 50px;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex ;
+
+
+  }
+
+  .logo a{
+    margin-left: 15px;
+    flex-basis: auto;
+    width: auto;
+    flex-wrap: nowrap;
+    vertical-align:  middle;
+
+  }
+
+  .logo img{
+    display: block;
+    flex-basis: auto;
+    width: auto;
+    height: 70px;
+    }
+
+
 
   .toggle-menu {
     display: none;
@@ -139,6 +148,8 @@
     display: none;
   }
 }
+
+
 
 /* Grille PROJETS */
 .grid-container {
@@ -273,7 +284,6 @@ img {
 #about h3, h4, p {
   position: relative;
   margin: 30px;
-  margin-top: 0px;
   animation-name: reveal;
   animation-duration: 4s;
   animation-iteration-count: 1;
@@ -336,7 +346,6 @@ span {
 #contact h3, h4, p {
   position: relative;
   margin: 30px;
-  margin-top: 0px;
   animation-name: reveal;
   animation-duration: 4s;
   animation-iteration-count: 1;
@@ -349,7 +358,7 @@ span {
 }
 
 #contact a:hover {
-  color: darkgrey;
+  color: #d1c5fd;
 }
 
 #contact img {
