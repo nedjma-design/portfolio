@@ -95,8 +95,8 @@ box-shadow: 0px 4px 4px rgb(0 0 0 / 0.2);
   #main-menu ul {
   display: flex;
     flex-direction: row;
-    width: 100%;
-    justify-content: flex-end;
+  width: auto;
+  justify-content: flex-end;
     background: white;
   }
 
@@ -112,7 +112,7 @@ box-shadow: 0px 4px 4px rgb(0 0 0 / 0.2);
   }
 
   .logo {
-width: 700px;
+width: 400px;
     margin-left: 50px;
     padding: 1em;
     display: flex;
@@ -468,12 +468,27 @@ margin-left: 0;
 color:grey;
 }
 
+
 #casse p{
 margin:0;
 padding : 0;
 padding-left: 200px;
 padding-right : 200px;
 padding-top : 50px;
+max-width: 700px;
+color: grey;
+display: block;
+margin-left: auto;
+margin-right:auto;
+}
+
+#casse h6 {
+margin:0;
+padding : 0;
+padding-left: 200px;
+padding-right : 200px;
+padding-top : 50px;
+padding-bottom : 0px;
 max-width: 700px;
 color: grey;
 display: block;
@@ -535,8 +550,27 @@ margin-top: 100px;
 
 
 
+#ours p {
+  padding-top : 0px;
+  padding-bottom : 0px;
+text-align: center;
 
+}
 
+#ours h6 {
+  margin:0;
+  padding : 0;
+  padding-left: 200px;
+  padding-right : 200px;
+  padding-top : 40px;
+  padding-bottom: 5px;
+  max-width: 700px;
+  color: grey;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  text-align: center;
+}
 
 
 /* FOOTER */
