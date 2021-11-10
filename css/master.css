@@ -449,6 +449,14 @@ span {
 
 
 
+#bloc01{
+margin-left: 100px;
+margin-right: 100px;
+flex-direction: row;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
 
 
 /* Page Casse-noisette */
@@ -472,8 +480,8 @@ color:grey;
 #casse p{
 margin:0;
 padding : 0;
-padding-left: 200px;
-padding-right : 200px;
+padding-left: auto;
+padding-right : auto;
 padding-top : 50px;
 max-width: 700px;
 color: grey;
@@ -571,6 +579,99 @@ text-align: center;
   margin-right:auto;
   text-align: center;
 }
+
+/* --------- Projet BNN -----------*/
+
+#bnn-02{
+  display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: space-evenly;
+margin: 100px;
+}
+
+#bnn-bloc-02{
+  width: 40%;
+}
+
+#bnn{
+  overflow: hidden;
+}
+
+#bnn h2{
+margin-top: 25px;
+}
+
+#bnn h3{
+margin-top: 100px;
+text-align: center;
+font-weight: bold;
+margin-left: 0;
+color:grey;
+}
+
+
+#bnn p{
+margin:0;
+padding : 0;
+padding-left: auto;
+padding-right : auto;
+padding-top : 50px;
+max-width: 700px;
+color: grey;
+display: block;
+margin-left: auto;
+margin-right:auto;
+}
+
+#ours h6 {
+margin:0;
+padding : 0;
+padding-left: 200px;
+padding-right : 200px;
+padding-top : 50px;
+padding-bottom : 0px;
+max-width: 700px;
+color: grey;
+display: block;
+margin-left: auto;
+margin-right:auto;
+}
+
+
+#ours p {
+margin:0;
+padding : 0;
+
+padding-top : 0px;
+padding-bottom : 0px;
+max-width: 700px;
+color: grey;
+display: block;
+margin-left: auto;
+margin-right:auto;
+}
+
+#bnn img {
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+#bnn figure{
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+
+
+
+
+
 
 
 /* FOOTER */
