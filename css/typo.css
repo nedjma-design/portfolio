@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,400&family=Fredericka+the+Great&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
+
+p{
+  color : grey;
+}
 a {
   font-family: 'Rubik', sans-serif;
 
@@ -71,6 +75,18 @@ p {
   font-family: 'Rubik', sans-serif;
   font-weight: 300;
     font-size: 20px;
+}
+
+
+#bnn-citation-02 p {
+  font-style: italic;
+font-family: 'Cormorant Garamond', serif;
+font-weight: 400;
+font-size: 22px;
+padding-bottom: 0;
+padding-top: 0;
+margin-bottom: 0;
+margin-top: 0;
 }
 
 figcaption {
