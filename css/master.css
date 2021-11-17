@@ -208,6 +208,11 @@ img {
 }
 
 @media (max-width : 900px) {
+
+  .logo img{
+display: none;
+    }
+
   .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -668,9 +673,15 @@ margin-right:auto;
 }
 
 
+/* --------- Projet lueurs dans la nuit -----------*/
 
-
-
+#bnn-bloc-02 h4{
+margin-bottom: 0;
+padding-bottom: 0;
+font-size: 26px;
+margin-left: 0;
+color: grey;
+}
 
 
 
