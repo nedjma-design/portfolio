@@ -1,7 +1,4 @@
 /* animation */
-
-
-
 /* MENU */
 #main-menu:target {
   left: 0;
@@ -30,7 +27,6 @@
 #main-menu ul a:hover {
   color: #d1c5fd;
 }
-
 
 .menu-close {
   display: flex;
@@ -79,24 +75,21 @@
 }
 
 @media (min-width : 900px) {
-
-
-
   #main-menu {
     position: static;
     width: 100%;
     background: transparent;
     display: flex;
-    justify-content:  space-evenly;
-align-items: center;
-box-shadow: 0px 4px 4px rgb(0 0 0 / 0.2);
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 0.2);
   }
 
   #main-menu ul {
-  display: flex;
+    display: flex;
     flex-direction: row;
-  width: auto;
-  justify-content: flex-end;
+    width: auto;
+    justify-content: flex-end;
     background: white;
   }
 
@@ -108,37 +101,31 @@ box-shadow: 0px 4px 4px rgb(0 0 0 / 0.2);
     padding: 2em;
     background: white;
     text-decoration: none;
-
   }
 
   .logo {
-width: 400px;
+    width: 400px;
     margin-left: 50px;
     padding: 1em;
     display: flex;
     flex-direction: row;
-    justify-content: flex ;
-
-
+    justify-content: flex;
   }
 
-  .logo a{
+  .logo a {
     margin-left: 15px;
     flex-basis: auto;
     width: auto;
     flex-wrap: nowrap;
-    vertical-align:  middle;
-
+    vertical-align: middle;
   }
 
-  .logo img{
+  .logo img {
     display: block;
     flex-basis: auto;
     width: auto;
     height: 70px;
-    }
-
-
+  }
 
   .toggle-menu {
     display: none;
@@ -148,8 +135,6 @@ width: 400px;
     display: none;
   }
 }
-
-
 
 /* Grille PROJETS */
 .grid-container {
@@ -168,7 +153,7 @@ width: 400px;
 }
 
 .project-image img {
-  filter: blur(0px) grayscale(100%);
+  filter: blur(0px);
   transition: filter 0.3s ease-in;
   transform: scale(1.1);
 }
@@ -198,7 +183,7 @@ width: 400px;
 }
 
 .project-listing:hover .project-image img {
-  filter: blur(2px)grayscale(0%);
+  filter: blur(2px);
 }
 
 img {
@@ -208,10 +193,9 @@ img {
 }
 
 @media (max-width : 900px) {
-
-  .logo img{
-display: none;
-    }
+  .logo img {
+    display: none;
+  }
 
   .grid-container {
     display: grid;
@@ -220,7 +204,7 @@ display: none;
   }
 
   .project-image img {
-    filter: blur(0px) grayscale(100%);
+    filter: blur(0px) ;
     transition: filter 0.3s ease-in;
     transform: scale(1.1);
   }
@@ -246,7 +230,7 @@ display: none;
   }
 
   .project-listing:hover .project-image img {
-    filter: blur(0px)grayscale(0%);
+    filter: blur(0px);
   }
 }
 
@@ -426,99 +410,67 @@ span {
     height: 100%;
     padding: 0px;
     margin: 0px;
-  float: none;
-  align-items: center;
-  justify-content: center;
+    float: none;
+    align-items: center;
+    justify-content: center;
   }
 }
 
-
-
-
-
-
 /* ////////////PROJETS//////////// */
-
-/* SECTION PROJET INEXISTANT*/
-#project01 {
-  background: lightgrey url('images/project01.jpg') no-repeat top center;
-}
-
-/* SECTION PHOTO INEXISTANTE*/
-#photo01 {
-  background: lightgrey url('images/project01.jpg') no-repeat top center;
-}
-
-
-
-
-
-
-#bloc01{
-margin-left: 100px;
-margin-right: 100px;
-flex-direction: row;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-}
 
 
 /* Page Casse-noisette */
-#casse{
+#casse {
   overflow: hidden;
 }
 
-#casse h2{
-margin-top: 25px;
+#casse h2 {
+  margin-top: 25px;
 }
 
-#casse h3{
-margin-top: 100px;
-text-align: center;
-font-weight: bold;
-margin-left: 0;
-color:grey;
+#casse h3 {
+  margin-top: 100px;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 0;
+  color: grey;
 }
 
+#casse p {
+    margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 50px;
+  max-width: 700px;
+  color: grey;
+  display: block;
 
-#casse p{
-margin:0;
-padding : 0;
-padding-left: auto;
-padding-right : auto;
-padding-top : 50px;
-max-width: 700px;
-color: grey;
-display: block;
-margin-left: auto;
-margin-right:auto;
 }
 
 #casse h6 {
-margin:0;
-padding : 0;
-padding-left: 200px;
-padding-right : 200px;
-padding-top : 50px;
-padding-bottom : 0px;
-max-width: 700px;
-color: grey;
-display: block;
-margin-left: auto;
-margin-right:auto;
+  margin: 0;
+  padding: 0;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  max-width: 700px;
+  color: grey;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .casse-feature-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-max-width: 1000px;
-margin-left: auto;
-margin-right:auto;
-margin-top: 100px;
-
-
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
 }
 
 .casse-feature {
@@ -528,18 +480,16 @@ margin-top: 100px;
   flex-basis: 50px;
   flex-grow: 1;
   flex-shrink: 1;
-
 }
-
 
 #casse img {
   object-fit: cover;
   display: block;
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
 }
 
-#casse figure{
+#casse figure {
   width: 100%;
   display: block;
   margin-left: auto;
@@ -547,124 +497,114 @@ margin-top: 100px;
   margin-top: 100px;
 }
 
-
 #full {
   width: 70%;
   object-fit: cover;
-    margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
 }
 
 #cover {
   width: 80%;
   object-fit: cover;
-
 }
 
-
-
 #ours p {
-  padding-top : 0px;
-  padding-bottom : 0px;
-text-align: center;
-
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
 }
 
 #ours h6 {
-  margin:0;
-  padding : 0;
+  margin: 0;
+  padding: 0;
   padding-left: 200px;
-  padding-right : 200px;
-  padding-top : 40px;
+  padding-right: 200px;
+  padding-top: 40px;
   padding-bottom: 5px;
   max-width: 700px;
   color: grey;
   display: block;
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
   text-align: center;
 }
 
 /* --------- Projet BNN -----------*/
-
-#bnn-02{
+#bnn-02 {
   display: flex;
-align-items: center;
-flex-direction: row;
-justify-content: space-evenly;
-margin: 100px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 100px;
 }
 
-#bnn-bloc-02{
+#bnn-bloc-02 {
   width: 40%;
 }
 
-#bnn{
+#bnn {
   overflow: hidden;
 }
 
-#bnn h2{
-margin-top: 25px;
+#bnn h2 {
+  margin-top: 25px;
 }
 
-#bnn h3{
-margin-top: 100px;
-text-align: center;
-font-weight: bold;
-margin-left: 0;
-color:grey;
+#bnn h3 {
+  margin-top: 100px;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 0;
+  color: grey;
 }
 
+#bnn p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 50px;
+  max-width: 700px;
+  color: grey;
+  display: block;
 
-#bnn p{
-margin:0;
-padding : 0;
-padding-left: auto;
-padding-right : auto;
-padding-top : 50px;
-max-width: 700px;
-color: grey;
-display: block;
-margin-left: auto;
-margin-right:auto;
 }
 
 #ours h6 {
-margin:0;
-padding : 0;
-padding-left: 200px;
-padding-right : 200px;
-padding-top : 50px;
-padding-bottom : 0px;
-max-width: 700px;
-color: grey;
-display: block;
-margin-left: auto;
-margin-right:auto;
+  margin: 0;
+  padding: 0;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  max-width: 700px;
+  color: grey;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
 #ours p {
-margin:0;
-padding : 0;
+  margin: 0;
+  padding: 0;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  max-width: 700px;
+  color: grey;
+  display: block;
 
-padding-top : 0px;
-padding-bottom : 0px;
-max-width: 700px;
-color: grey;
-display: block;
-margin-left: auto;
-margin-right:auto;
 }
 
 #bnn img {
   object-fit: cover;
   display: block;
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
 }
 
-#bnn figure{
+#bnn figure {
   width: 100%;
   display: block;
   margin-left: auto;
@@ -672,18 +612,87 @@ margin-right:auto;
   margin-top: 100px;
 }
 
+@media (max-width : 900px) {
 
-/* --------- Projet lueurs dans la nuit -----------*/
+  #bnn-02 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+  }
 
-#bnn-bloc-02 h4{
-margin-bottom: 0;
-padding-bottom: 0;
-font-size: 26px;
-margin-left: 0;
-color: grey;
+  #bnn-bloc-02 {
+    width: 100%;
+  }
 }
 
 
+/* --------- Projet lueurs dans la nuit -----------*/
+#bnn-bloc-02 h4 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 26px;
+  margin-left: 0;
+  color: grey;
+}
+
+/* Boutons précédents et suivant*/
+
+  .boutons {
+  font: inherit;
+}
+
+.boutons ul {
+  padding-top: 40px;
+  display:run-in;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+
+}
+
+.boutons li {
+  margin-top: 2em;
+  margin-bottom: 4em;
+  margin-left: 1em;
+    margin-right: 1em;
+}
+
+.boutons a {
+  text-decoration: none;
+  background-color: black;
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right:30px;
+  transition: all 0.5s ease;
+
+}
+
+
+.boutons a:hover {
+  padding: 20px;
+  padding-left: 40px;
+  padding-right:40px;
+  background-color: #d1c5fd;
+
+}
+
+@media (min-width : 900px) {
+
+
+  .boutons li {
+    margin-left: 4em;
+      margin-right: 4em;
+  }
+
+  .boutons ul {
+    display :flex;
+  }
+}
 
 /* FOOTER */
 footer {
@@ -718,6 +727,7 @@ footer h3 {
   color: white;
   font-size: 1.5em;
   display: block;
+
 }
 
 .footer-content {
@@ -764,6 +774,7 @@ footer h3 {
 
   footer ul {
     padding-top: 1em;
+    visibility: visible;
   }
 
   footer a:hover {
@@ -772,8 +783,9 @@ footer h3 {
 
   footer h3 {
     color: white;
-    font-size: 1, 5em;
+    font-size: 1.5em;
     display: block;
+      visibility: visible;
   }
 
   .footer-content {
@@ -795,7 +807,7 @@ footer h3 {
 @media (max-width : 900px) {
   footer h3 {
     color: white;
-    font-size: 1em;
+    font-size: 16px;
     display: block;
   }
 
