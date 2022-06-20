@@ -211,9 +211,21 @@ img {
   font-size: 28px;
 }
 
+
 #projet {
   overflow: hidden;
 }
+
+
+@media (min-width:1600px) {
+
+  #projet {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+}
+
+
 
 #projet p {
   margin-top: 0;
@@ -275,6 +287,7 @@ img {
   margin-right: auto;
   margin-top: 100px;
 }
+
 
 @media (max-width : 899px) {
   #projet p {
